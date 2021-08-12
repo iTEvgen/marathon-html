@@ -1,8 +1,8 @@
 {
-  "name": "имя проекта",
-  "version": "версия проекта",
+  "name": "marathon-html",
+  "version": "1.0.0",
   "private": true,
-  "description": "описание проекта",
+  "description": "Third marathon from Htmlacademy",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.x",
     "autoprefixer": "^9.8.6",
