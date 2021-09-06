@@ -1,3 +1,9 @@
+body {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -17,3 +23,4 @@ img {
   max-width: 100%;
   height: auto;
 }
+
