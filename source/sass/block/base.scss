@@ -1,7 +1,12 @@
 body {
-  font-family: "Playfair Display", serif;
+  min-width: 1440pxв;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 19.5px;
   font-weight: normal;
-  font-style: normal;
+  color: #ae7c78;
+  word-wrap: break-word;
+  background-color: #ffffff;
 }
 
 .visually-hidden:not(:focus):not(:active),
@@ -23,4 +28,3 @@ img {
   max-width: 100%;
   height: auto;
 }
-
