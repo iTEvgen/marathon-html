@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Playfair Display";
-  src: url("../fonts/playfairdisplay-regular.woff2") format(woff2), url("../fonts/playfairdisplay-regular.woff") format(woff);
+  src: url("../fonts/playfairdisplayregular.woff2"), url("../fonts/playfairdisplayregular.woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Playfair Display";
-  src: url("../fonts/playfairdisplay-bold.woff2") format(woff2), url("../fonts/playfairdisplay-bold.woff") format(woff);
+  src: url("../fonts/playfairdisplaybold.woff2"), url("../fonts/playfairdisplaybold.woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: "Playfair Display";
-  src: url("../fonts/playfairdisplay-italic.woff2") format(woff2), url("../fonts/playfairdisplay-italic.woff") format(woff);
+  src: url("../fonts/playfairdisplayitalic.woff2"), url("../fonts/playfairdisplayitalic.woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url("../fonts/montserrat-regular.woff2") format(woff2), url("../fonts/montserrat-regular.woff") format(woff);
+  src: url("../fonts/montserratregular.woff2"), url("../fonts/montserratregular.woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -32,7 +32,7 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url("../fonts/montserrat-medium.woff2") format(woff2), url("../fonts/montserrat-medium.woff") format(woff);
+  src: url("../fonts/montserratmedium.woff2"), url("../fonts/montserratmedium.woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
