@@ -1,0 +1,12 @@
+.preview-list__title {
+  @include margin-reset;
+
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-size: 44px;
+  font-weight: normal;
+  line-height: 58.65px;
+}
+
+.preview-list__title span {
+  font-style: italic;
+}
