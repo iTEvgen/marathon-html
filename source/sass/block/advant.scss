@@ -1,0 +1,40 @@
+.advantages__list {
+  display: flex;
+  justify-content: space-between;
+
+  @include margin-reset;
+}
+
+.advantages__wrapp {
+  width: 386px;
+  padding-left: 102px;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position-y: 3px;
+
+  &--mdfDecrIcnOne {
+    background-image: url("../../img/bg-icon-van.svg");
+  }
+
+  &--mdfDecrIcnTwo {
+    background-image: url("../../img/bg-icon-bouquet.svg");
+    background-position-x: 30px;
+  }
+
+  &--mdfDecrIcnThree {
+    background-image: url("../../img/bg-icon-camera.svg");
+    background-position-x: 24px;
+  }
+}
+
+.advantages__title {
+  margin-bottom: 9px;
+  padding-top: 5px;
+  font-size: 15.5px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.advantages__description {
+  @include margin-reset;
+}
