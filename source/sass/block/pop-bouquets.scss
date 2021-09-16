@@ -1,0 +1,89 @@
+.pop-bouquets__header {
+  @include margin-reset;
+  text-align: center;
+}
+
+.pop-bouquets__wrapp {
+  display: flex;
+  flex-direction: column;
+  width: 792px;
+  margin: 0 auto;
+}
+
+.pop-bouquets__list {
+  margin-bottom: 10px;
+  padding-top: 34px;
+}
+
+.pop-bouquets__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pop-bouquets__item-wrapp {
+  width: 387px;
+  padding-top: 29px;
+}
+
+.pop-bouquets__title {
+  @include margin-reset;
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 29.26px;
+  font-weight: 500;
+}
+
+.pop-bouquets__text {
+  @include margin-reset;
+  margin-bottom: 26px;
+}
+
+.pop-bouquets__size {
+  @include margin-reset;
+  margin-bottom: 25px;
+}
+
+.pop-bouquets__price {
+  @include margin-reset;
+  margin-bottom: 63px;
+  font-size: 24px;
+  line-height: 29.26px;
+  font-weight: 500;
+}
+
+.pop-bouquets__image {
+  @include figure-reset;
+  width: 387px;
+}
+
+.pop-bouquets__image img {
+  display: block;
+}
+
+.pop-bouquets__toggles {
+  align-self: center;
+}
+
+.pop-bouquets__toggle {
+  width: 67px;
+  height: 25px;
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+
+  &--mdfDecrIcnOne {
+    background-image: url("../../img/Arrow2.svg");
+  }
+
+  &--mdfDecrIcnTwo {
+    background-image: url("../../img/Arrow1.svg");
+  }
+}
+
+.slider__item {
+  &--mdfDispNon {
+    display: none;
+  }
+}
