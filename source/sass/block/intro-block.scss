@@ -1,0 +1,68 @@
+.intro {
+  margin-bottom: 45px;
+}
+
+.intro__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.preview-list {
+  max-width: 385px;
+  padding-top: 2px;
+}
+
+.preview-list__title {
+  @include margin-reset;
+  margin-bottom: 25px;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 58.65px;
+}
+
+.preview-list__title span {
+  font-style: italic;
+}
+
+.preview-list__text {
+  @include margin-reset;
+  margin-bottom: 62px;
+  font-size: 24px;
+  line-height: 29.26px;
+}
+
+// .preview-list__link {
+//   display: flex;
+//   width: 285px;
+//   height: 80px;
+//   align-items: center;
+//   justify-content: center;
+//   color: #ffffff;
+//   background-color: #d89999;
+//   border-radius: 40px;
+//   text-decoration: none;
+// }
+
+.preview-image {
+  @include figure-reset;
+
+  display: flex;
+  justify-content: space-between;
+  min-width: 792px;
+  min-height: 462px;
+}
+
+.preview-image__item {
+  width: 386px;
+
+  &--mdfElemOne {
+    align-self: flex-end;
+    height: 404px;
+  }
+
+  &--mdfElemTwo {
+    align-self: flex-start;
+    height: 420px;
+  }
+}
