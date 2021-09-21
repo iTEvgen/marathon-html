@@ -1,0 +1,66 @@
+.catalog__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 387px;
+  height: 442px;
+  text-align: center;
+  background-color: rgba(174, 124, 120, 0.6);
+  background-size: cover;
+  border-radius: 10px;
+
+  &--mdfBgOne {
+    background-image: url("../../img/backgr-image1@1x.jpg");
+  }
+
+  &--mdfBgTwo {
+    background-image: url("../../img/backgr-image2@1x.jpg");
+  }
+
+  &--mdfBgThree {
+    background-image: url("../../img/backgr-image3@1x.jpg");
+  }
+}
+
+.catalog__title {
+  @include margin-reset;
+  margin-bottom: 7px;
+  color: #ffffff;
+}
+
+.catalog__link {
+  color: #ffffff;
+  line-height: 20px;
+  text-decoration: none;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+  .catalog__item {
+    &--mdfBgOne {
+      background-image: url("../../img/backgr-image1@2x.jpg");
+    }
+
+    &--mdfBgTwo {
+      background-image: url("../../img/backgr-image2@2x.jpg");
+    }
+
+    &--mdfBgThree {
+      background-image: url("../../img/backgr-image3@2x.jpg");
+    }
+  }
+}
