@@ -1,0 +1,40 @@
+.discount__list {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  background-color: #ae7c78;
+}
+
+.discount__items {
+  flex-basis: 590px;
+  box-sizing: border-box;
+
+  &--mdfText {
+    padding: 42px 102px;
+  }
+
+  &--mdfImg {
+    @include figure-reset;
+  }
+}
+
+.discount__title {
+  @include margin-reset;
+  margin-bottom: 25px;
+  font-size: 44px;
+  line-height: 59.65px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.discount__descr {
+  @include margin-reset;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.discount__image {
+  display: block;
+  width: 590px;
+  height: 391px;
+}
