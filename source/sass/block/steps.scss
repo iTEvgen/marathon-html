@@ -1,0 +1,51 @@
+.four-steps__header {
+  @include margin-reset;
+  margin-bottom: 35px;
+  text-align: center;
+  letter-spacing: 0.8px;
+}
+
+.four-steps__list {
+  @include list-reset;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.four-steps__item {
+  width: 285px;
+  padding-top: 63px;
+  background-repeat: no-repeat;
+  background-position: top center;
+
+  &--mdfDecrIcnOne {
+    background-image: url("../../img/bg-icon-catalog.svg");
+    background-size: 67px 52px;
+  }
+
+  &--mdfDecrIcnTwo {
+    background-image: url("../../img/bg-icon-human.svg");
+    background-size: 38px 52px;
+  }
+
+  &--mdfDecrIcnThree {
+    background-image: url("../../img/bg-icon-discount.svg");
+    background-size: 70px 52px;
+  }
+
+  &--mdfDecrIcnFour {
+    background-image: url("../../img/bg-icon-van.svg");
+    background-size: 82px 52px;
+  }
+}
+
+.four-steps__title {
+  @include margin-reset;
+  margin-bottom: 9px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.four-steps__text {
+  @include margin-reset;
+}
