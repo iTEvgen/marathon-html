@@ -10,6 +10,11 @@
   <title>marathon-html</title>
 </head>
 <body>
+
+  <div style="display: none;">
+    <include src="build/img/sprite.svg"></include>
+  </div>
+
   <header class="page-header">
     <div class="wrapper">
       <a class="header-logo" href="">
@@ -120,9 +125,15 @@
           </div>
           <div class="pop-bouquets__toggles slider__toggles">
             <button class="pop-bouquets__toggle pop-bouquets__toggle--mdfDecrIcnOne slider__toggle" type="button">
+              <svg class="pop-bouquets__icon-arrow-two" role="img" focusable="false" width="51" height="16">
+                <use xlink:href="#icon-arrow-two">
+              </svg>
               <span class="visually-hidden">Вперед</span>
             </button>
             <button class="pop-bouquets__toggle pop-bouquets__toggle--mdfDecrIcnTwo slider__toggle" type="button">
+              <svg class="social-list__icon-arrow-one" role="img" focusable="false" width="51" height="16">
+                <use xlink:href="#icon-arrow-one">
+              </svg>
               <span class="visually-hidden">Назад</span>
             </button>
           </div>
@@ -185,25 +196,40 @@
             <header class="new-list__header">
               <h3 class="new-list__title headers-fonts">Следите за нашими новостями</h3>
             </header>
-            <p class="new-list__text">Подписывайтесь на наши соцсети и узнавайте о новинках и акциях первым.</p>
+            <p class="new-list__text">Подписывайтесь на наши соцсети и узнавайте<br> о новинках и акциях первым.</p>
             <footer class="new-list__footer">
               <ul class="new-list__social social-list">
                 <li class="social-list__item">
-                  <a class="social-list__link" href=""><span class="">инстаграм</span></a>
+                  <a class="social-list__link" href="">
+                    <svg class="social-list__icon-inst" role="img" focusable="false" width="21" height="20">
+                      <use xlink:href="#icon-inst">
+                    </svg>
+                    <span class="visually-hidden">инстаграм</span>
+                  </a>
                 </li>
                 <li class="social-list__item">
-                  <a class="social-list__link" href=""><span class="">фейсбук</span></a>
+                  <a class="social-list__link" href="">
+                    <svg class="social-list__icon-facebook" role="img" focusable="false" width="12" height="20">
+                      <use xlink:href="#icon-facebook">
+                    </svg>
+                    <span class="visually-hidden">фейсбук</span>
+                  </a>
                 </li>
                 <li class="social-list__item">
-                  <a class="social-list__link" href=""><span class="">твиттер</span></a>
+                  <a class="social-list__link" href="">
+                    <svg class="social-list__icon-twitter" role="img" focusable="false" width="26" height="20">
+                      <use xlink:href="#icon-twitter">
+                    </svg>
+                    <span class="visually-hidden">твиттер</span>
+                  </a>
                 </li>
               </ul>
             </footer>
           </section>
-          <figure class="news__list new-img">
-            <img class="new-img__item" src="img/news-image1@1x.jpg" alt="">
-            <img class="new-img__item" src="img/news-image2@1x.jpg" alt="">
-            <img class="new-img__item" src="img/news-image3@1x.jpg" alt="">
+          <figure class="news__img new-img">
+            <img class="new-img__item new-img__item--mdfElemOne" src="img/news-image1@1x.jpg" alt="">
+            <img class="new-img__item new-img__item--mdfElemTwo" src="img/news-image2@1x.jpg" alt="">
+            <img class="new-img__item new-img__item--mdfElemThree" src="img/news-image3@1x.jpg" alt="">
           </figure>
         </div>
       </section>
