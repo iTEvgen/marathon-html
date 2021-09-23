@@ -15,7 +15,7 @@
 }
 
 .pop-bouquets__list {
-  margin-bottom: 10px;
+  margin-bottom: 16px;
   padding-top: 34px;
 }
 
@@ -70,20 +70,24 @@
 
 .pop-bouquets__toggle {
   width: 67px;
-  height: 25px;
+  height: 16px;
   border: none;
   background-color: transparent;
-  background-repeat: no-repeat;
-  background-position: center;
   cursor: pointer;
+  outline: none;
+}
 
-  &--mdfDecrIcnOne {
-    background-image: url("../../img/Arrow2.svg");
-  }
+.pop-bouquets__toggle svg {
+  fill: #ae7c78;
+}
 
-  &--mdfDecrIcnTwo {
-    background-image: url("../../img/Arrow1.svg");
-  }
+.pop-bouquets__toggle:hover svg,
+.pop-bouquets__toggle:focus svg {
+  fill: rgb(99, 33, 165);
+}
+
+.pop-bouquets__toggle:active svg {
+  fill: rgb(255, 0, 0);
 }
 
 .slider__item {
