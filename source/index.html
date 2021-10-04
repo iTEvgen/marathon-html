@@ -57,8 +57,14 @@
             <a class="preview-list__link button" href="">Смотреть каталог</a>
           </article>
           <figure class="intro__list preview-image">
-            <img class="preview-image__item preview-image__item--mdfElemOne" src="img/preview-img1@1x.jpg" alt="">
-            <img class="preview-image__item preview-image__item--mdfElemTwo" src="img/preview-img2@1x.jpg" alt="">
+            <picture class="preview-image__item preview-image__item--mdfElemOne">
+              <source type="image/webp" srcset="img/preview-img1@1x.webp 1x, img/preview-img1@2x.webp 2x">
+              <img  src="img/preview-img1@1x.jpg", srcset="img/preview-img1@2x.jpg 2x" alt="">
+            </picture>
+            <picture class="preview-image__item preview-image__item--mdfElemTwo">
+              <source type="image/webp" srcset="img/preview-img2@1x.webp 1x, img/preview-img2@2x.webp">
+              <img src="img/preview-img2@1x.jpg", srcset="img/preview-img2@2x.jpg 2x" alt="">
+            </picture>
           </figure>
         </div>
       </section>
@@ -93,7 +99,10 @@
                 <a class="pop-bouquets__link button" href="">Заказать</a>
               </div>
               <figure class="pop-bouquets__image">
-                <img src="img/flower-bouquet-1@1x.png" alt="">
+                <picture>
+                  <source type="image/webp" srcset="img/flower-bouquet-1@1x.webp 1x, img/flower-bouquet-1@2x.webp 2x">
+                  <img src="img/flower-bouquet-1@1x.png", srcset="img/flower-bouquet-1@2x.png 2x" alt="">
+                </picture>
               </figure>
             </div>
 
@@ -106,7 +115,10 @@
                 <a class="pop-bouquets__link button" href="">Заказать</a>
               </div>
               <figure class="pop-bouqets__image">
-                <img src="img/flower-bouquet-1@1x.png" alt="">
+                <picture>
+                  <source type="image/webp" srcset="img/flower-bouquet-1@1x.webp 1x, img/flower-bouquet-1@2x.webp 2x">
+                  <img src="img/flower-bouquet-1@1x.png", srcset="img/flower-bouquet-1@2x.png 2x" alt="">
+                </picture>
               </figure>
             </div>
 
@@ -119,7 +131,10 @@
                 <a class="pop-bouquets__link button" href="">Заказать</a>
               </div>
               <figure class="pop-bouqets__image">
-                <img src="img/flower-bouquet-1@1x.png" alt="">
+                <picture>
+                  <source type="image/webp" srcset="img/flower-bouquet-1@1x.webp 1x, img/flower-bouquet-1@2x.webp 2x">
+                  <img src="img/flower-bouquet-1@1x.png", srcset="img/flower-bouquet-1@2x.png 2x" alt="">
+                </picture>
               </figure>
             </div>
           </div>
@@ -164,7 +179,10 @@
             <p class="discount__descr">Если заказываете у нас букет впервые — при оформлении заказа введите промокод &#171;Botanika2021&#187; и получите скидку 10%.</p>
           </div>
           <figure class="discount__items discount__items--mdfImg">
-            <img class="discount__image" src="img/discount-image1@1x.jpg" alt="" >
+            <picture>
+              <source type="image/webp" srcset="img/discount-image1@1x.webp 1x, img/discount-image1@2x.webp">
+              <img class="discount__image" src="img/discount-image1@1x.jpg", srcset="img/discount-image1@2x.jpg 2x" alt="" >
+            </picture>
           </figure>
         </div>
       </section>
@@ -227,9 +245,18 @@
             </footer>
           </section>
           <figure class="news__img new-img">
-            <img class="new-img__item new-img__item--mdfElemOne" src="img/news-image1@1x.jpg" alt="">
-            <img class="new-img__item new-img__item--mdfElemTwo" src="img/news-image2@1x.jpg" alt="">
-            <img class="new-img__item new-img__item--mdfElemThree" src="img/news-image3@1x.jpg" alt="">
+            <picture class="new-img__item new-img__item--mdfElemOne">
+              <source type="image/webp" srcset="img/news-image1@1x.webp 1x, img/news-image1@2x.webp 2x">
+              <img src="img/news-image1@1x.jpg", srcset="img/news-image1@2x.jpg 2x" alt="">
+            </picture>
+            <picture class="new-img__item new-img__item--mdfElemTwo">
+              <source type="image/webp" srcset="img/news-image2@1x.webp 1x, img/news-image2@2x.webp 2x">
+              <img src="img/news-image2@1x.jpg", srcset="img/news-image2@2x.jpg 2x" alt="">
+            </picture>
+            <picture class="new-img__item new-img__item--mdfElemThree">
+              <source type="image/webp" srcset="img/news-image3@1x.webp 1x, img/news-image3@2x.webp 2x">
+              <img src="img/news-image3@1x.jpg" srcset="img/news-image3@2x.jpg 2x" alt="">
+            </picture>
           </figure>
         </div>
       </section>

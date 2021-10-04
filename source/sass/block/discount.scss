@@ -13,8 +13,12 @@
   flex-basis: 590px;
   box-sizing: border-box;
 
+  picture {
+    display: block;
+  }
+
   &--mdfText {
-    padding: 42px 102px;
+    padding: 42px 102px 61px;
   }
 
   &--mdfImg {

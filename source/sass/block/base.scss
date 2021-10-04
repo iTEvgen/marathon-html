@@ -27,7 +27,7 @@ input[type="radio"].visually-hidden {
 }
 
 img {
-  max-width: 100%;
+  // max-width: 100%; с этим пораметром картинка не растягивается в контенере по высоте контенера
   height: auto;
 }
 
