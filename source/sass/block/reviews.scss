@@ -1,0 +1,28 @@
+.reviews {
+  border: 1px solid #ae7c78;
+}
+
+.reviews__header {
+  @include margin-reset;
+  text-align: center;
+}
+
+.reviews__list {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.reviews__item {
+  @include margin-reset;
+  width: 300px;
+}
+
+.reviews__comment {
+  @include margin-reset;
+}
+
+.reviews__author {
+  font-weight: 500;
+  font-style: normal;
+}
