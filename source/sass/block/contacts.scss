@@ -1,0 +1,10 @@
+.contacts__list {
+  @include figure-reset;
+}
+
+.maps__img-map {
+  display: block;
+  width: 100%;
+  height: 644px;
+  object-fit: cover;
+}
