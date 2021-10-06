@@ -1,9 +1,12 @@
 .reviews {
+  padding-top: 41px;
+  padding-bottom: 61px;
   border: 1px solid #ae7c78;
 }
 
 .reviews__header {
   @include margin-reset;
+  margin-bottom: 40px;
   text-align: center;
 }
 
@@ -20,6 +23,8 @@
 
 .reviews__comment {
   @include margin-reset;
+  margin-bottom: 16px;
+  line-height: 20px;
 }
 
 .reviews__author {

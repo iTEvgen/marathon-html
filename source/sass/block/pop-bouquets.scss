@@ -1,5 +1,5 @@
 .pop-bouquets {
-  margin-bottom: 67px;
+  margin-bottom: 66px;
 }
 
 .pop-bouquets__header {
@@ -15,8 +15,8 @@
 }
 
 .pop-bouquets__list {
-  margin-bottom: 16px;
-  padding-top: 34px;
+  margin-bottom: 15px;
+  padding-top: 35px;
 }
 
 .pop-bouquets__item {
@@ -32,7 +32,7 @@
 
 .pop-bouquets__title {
   @include margin-reset;
-  margin-bottom: 20px;
+  margin-bottom: 19px;
   font-size: 24px;
   line-height: 29.26px;
   font-weight: 500;
@@ -40,7 +40,7 @@
 
 .pop-bouquets__text {
   @include margin-reset;
-  margin-bottom: 26px;
+  margin-bottom: 25px;
 }
 
 .pop-bouquets__size {
