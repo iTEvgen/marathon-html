@@ -23,7 +23,6 @@
   display: flex;
   justify-content: space-between;
   min-height: 438px;
-  // box-sizing: border-box;
 }
 
 .pop-bouquets__item-wrapp {
@@ -64,10 +63,7 @@
 }
 
 .pop-bouquets__image picture {
-  // display: block;
-
   img {
-    // object-fit: cover;
     display: block;
   }
 }
@@ -78,11 +74,10 @@
 
 .pop-bouquets__toggle {
   width: 67px;
-  height: 16px;
+  height: 18px;
   border: none;
   background-color: transparent;
   cursor: pointer;
-  outline: none;
 }
 
 .pop-bouquets__toggle svg {
